@@ -1,0 +1,120 @@
+html {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fffdbe;
+  font-family: 'Arima Madurai', cursive;
+}
+
+header {
+  padding-top: 0.67em;
+  text-align: center;
+  font-size: 2.5em;
+  color: #7f623a;
+  height: 18vh;
+  box-sizing: border-box;
+}
+
+header h1 {
+  margin-top: 0;
+}
+
+#main-content {
+  width: 80%;
+  height: 82vh;
+  margin: 0 auto;
+}
+
+#map-container {
+  height: 50%;
+  box-shadow: 0 15px 20px rgba(0,0,0,.35);
+  padding: 4px;
+  background-color: #403d30;
+  border-radius: 4px;
+}
+
+#bigmap {
+  height: 100%;
+}
+
+#btn-container, #calendar-container {
+  margin: 0 auto;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.btn span {
+  user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: 'Arima Madurai', cursive;
+  font-size: 3em;
+  color: white;
+  text-shadow: 0 -1px -1px rgba(19, 65, 88, .8);
+  background: #3194c6;
+  background: linear-gradient(#3194c6, #5bacd6);
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow:
+    0 8px 0 #1a74a1,
+    0 15px 20px rgba(0,0,0,.35);
+}
+
+.btn:active {
+  box-shadow:
+    0 8px 0 #1a74a1,
+    0 12px 10px rgba(0,0,0,.3);
+}
+
+.btn:active span {
+  transform: translate(0, 4px);
+}
+
+#date-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+#calendar-container {
+  display: none;
+}
+
+#calendar-container span {
+  font-size: 2em;
+}
+
+.date-item {
+  width: 20%;
+  text-align: center;
+  box-shadow: 0 15px 20px rgba(0,0,0,.35);
+  border-radius: 10px;
+}
+
+.date-month {
+  font-size: 1.5em;
+  background-color: #f44336;
+  margin: 0;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.date-day {
+  font-size: 5em;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0.2em 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
