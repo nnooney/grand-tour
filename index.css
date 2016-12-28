@@ -10,22 +10,18 @@ body {
   font-family: 'Arima Madurai', cursive;
 }
 
-header {
+h1 {
+  margin-top: 0;
   padding-top: 0.67em;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 5em;
   color: #7f623a;
-  height: 18vh;
-  box-sizing: border-box;
-}
-
-header h1 {
-  margin-top: 0;
+  display: block;
 }
 
 #main-content {
   width: 80%;
-  height: 82vh;
+  height: 100vh;
   margin: 0 auto;
 }
 
@@ -35,6 +31,7 @@ header h1 {
   padding: 4px;
   background-color: #403d30;
   border-radius: 4px;
+  min-height: 160px;
 }
 
 #bigmap {
@@ -95,7 +92,7 @@ header h1 {
 }
 
 .date-item {
-  width: 20%;
+  margin-bottom: 20px;
   min-width: 165px;
   text-align: center;
   box-shadow: 0 15px 20px rgba(0,0,0,.35);
